@@ -5,7 +5,7 @@ class PageTitle extends Component {
         const {className, title} = this.props;
         return(
             <div className={`${className} page-title`}>
-                Login
+                {title}
             </div>
         )
     }
