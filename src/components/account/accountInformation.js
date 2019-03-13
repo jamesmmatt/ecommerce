@@ -4,10 +4,10 @@ class AccountInformation extends Component {
     render() {
         return(
             <div>
-
+                account information
             </div>
         )
     }
 }
 
-export default AccountHistory;
+export default AccountInformation;
