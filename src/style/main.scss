@@ -15,21 +15,22 @@ body {
     color: #808080;
 }
 
+
 @import 'layout';
 @import 'headernavbar';
 @import 'page-title';
 @import 'form-fields';
 @import 'details';
 
-//Auth
+// AUTH 
 @import 'auth/signin';
 @import 'auth/signup';
 
-
-//Account
+// ACCOUNT
+@import 'account/account';
 @import 'account/purchase-history';
 @import 'account/account-information';
-@import 'account/account';
 
-//Shop
+// SHOP
 @import 'shop/shop';
+@import 'shop/shop-search-bar';
